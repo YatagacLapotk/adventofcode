@@ -1,5 +1,6 @@
 file = "/Users/yatagaclapotk/Desktop/Genel Çalişmalar/adventofcode/2015/day2/input.txt"
 with open(file,"r") as f:
+#-----------part2--------------------    
     lines = f.readlines()
     ribbonsum = 0
     for line in lines:
@@ -23,6 +24,9 @@ with open(file,"r") as f:
                 ribbonl = 2*(length+height)
         ribbonsum+=ribbonh+ribbonl
     print(ribbonsum)
+
+#-----------part1--------------------
+
 """     sum = 0
     for line in lines:
         line = line.strip()

@@ -27,7 +27,7 @@ with open(file,"r") as f:
 
 #-----------part1--------------------
 
-"""     sum = 0
+    sum = 0
     for line in lines:
         line = line.strip()
         firstocur = line.find("x",0)
@@ -49,4 +49,4 @@ with open(file,"r") as f:
                 low = length*height
         sqrfeet+=low
         sum+=sqrfeet
-    print(sum) """
+    print(sum)

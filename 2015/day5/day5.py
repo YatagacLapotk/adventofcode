@@ -29,9 +29,6 @@ with open(filename) as f:
                 letterafter=1
             if i <(len(line)-1) and line.find(s,i+1)!=-1:
                 if line[i+2::].find(line[i:i+2])!=-1:
-                    print(line)
-                    print(line[i+2::])
-                    print(line[i:i+2])
                     doubleoverlap=1
         if letterafter ==1 and doubleoverlap==1:
             nicenumbers+=1 

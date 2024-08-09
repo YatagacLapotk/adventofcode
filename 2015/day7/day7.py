@@ -31,10 +31,9 @@ def findsignall(signal:str="a",signalist:list=signalist,lines:list=lines):
             signalist.append(line)
             
 findsignall()
-""" for i in signalist:
-    print(i) """
-###########pat1############
-""" num = {}
+
+###########part1############
+num = {}
 for ins in signalist:
     comm = re.findall("[A-Z]+",ins)
     if len(comm) == 0:
@@ -70,11 +69,9 @@ for ins in signalist:
             if comm[0]=="RSHIFT":
                 num[s3] = s2>>s1
                      
-print(num["a"])"""
-###########pat2############
+print(num["a"])
+###########part2############
 signalist.insert(3,"956 -> b")
-for i in signalist:
-    print(i)
 num = {}
 for ins in signalist:
     comm = re.findall("[A-Z]+",ins)
